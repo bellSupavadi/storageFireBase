@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 * {
-  margin: 0;
-  padding: 0;
+  
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -9,10 +8,26 @@
 
 body {
   font-family: Lato, Arial;
-  color: #fff;
-  padding: 55px 25px;
-  background-color: #e74c3c;
+  color: rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
+  
+
+  
 }
+.container{
+    max-width: 1170px;
+    margin-left: 27%;
+    margin-right: auto;
+    padding: 1em;
+}
+.wrapper{
+    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    background-color:rgb(210, 226, 250);
+  }
+  
+  .wrapper > *{
+    padding: 1em;
+  }
 
 h1 {
   font-weight: normal;
@@ -57,7 +72,7 @@ p a:hover {
   display: block;
   width: auto;
   font-size: 16px;
-  margin-top: 30px;
+ 
 }
 .custom-file-upload label {
   display: block;
@@ -98,7 +113,7 @@ p a:hover {
   border: none;
   margin-left: -1px;
   background-color: #962d22;
-  float: left;
+  float:left;
   /* IE 9 Fix */
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
