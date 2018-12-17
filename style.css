@@ -20,6 +20,13 @@ body {
     margin-right: auto;
     padding: 1em;
 }
+.container2{
+  max-width: 500px;
+  max-height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
 .wrapper{
     box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
     background-color:rgb(210, 226, 250);
