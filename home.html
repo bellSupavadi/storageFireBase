@@ -8,11 +8,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
   <style>
   /* Make the image fully responsive */
   .carousel-inner img {
-      width: 1500px;
-      height: 400px;
+    width: 1400px;
+      height: 600px;
   }
   </style>
 </head>
@@ -24,7 +25,10 @@
                         <img src="Logo-PSU.png" class="rounded" alt="Cinque Terre" width="200" height="130"style="margin-left: 10%">
                     </div>
                     <div class="col-md-6  mb-2" >
-                            <a type="button" class="btn btn-outline-info" href="login.html" style="margin-left: 70%;margin-top: 5%">ADMIN</a>
+                            <button type="button" class="button button1"style="margin-left: 70%;margin-top: 5%; "> 
+                            <a  href="login.html" >
+                            ADMIN</a></button>
+                            
                         </div>
                 </div>
             </header>
@@ -36,33 +40,31 @@
                     </ol>
                 </div>
             </div>
- <div class="container">
+          
+ <div class="container"  style="margin-right: auto;margin-left: auto;">
 <div id="demo" class="carousel slide" data-ride="carousel">
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
     <li data-target="#demo" data-slide-to="2"></li>
   </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="la.jpg" alt="Los Angeles" >
+  <div class="carousel-inner"id="boxshadow">
+    <div class="carousel-item active" >
+      <img src="img1.jpg">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+       
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="Chicago.jpg" alt="Chicago" >
+      <img src="img2.jpg"  >
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="Ny.jpg" alt="New York" >
+      <img src="img3.jpg"  >
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        
        
       </div>   
     </div> 
@@ -77,6 +79,8 @@
   
 </div>
 </div>
-<a type="button" class="btn btn-outline-info" href="index.html">REGISTER</a>
+<button type="button" class="button button1" style="margin-left: 50%;margin-top: 2%; "> 
+    <a  href="index.html" >
+    REGISTER</a></button>
 </body>
 </html>
